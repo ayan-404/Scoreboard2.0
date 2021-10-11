@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Scoreboard</h1>
+            <h3 class="value">
+                <span id="score1">0</span>
+                 - 
+                <span id="score2">0</span>
+            </h3>
+            <div class="ui">
+                <div class="teams">
+                    <img id="team1" src="./assets/arsenal.png" alt="team1" width="225px" height="150px">
+                    <img id="team2" src="./assets/liverpool.png" alt="team2" width="225px" height="150px">
+                </div>
+                <div class="button-ui">
+                    <button class="btn undo1">undo</button>
+                    <!-- increase score 1-->
+                    <button class="btn scoreBtn1">increase score</button>
+                    <!-- reset button -->
+                    <button class="btn reset"> reset </button>
+                    <!-- increase score 2-->
+                    <button class="btn scoreBtn2">increase score</button>
+                    <button class="btn undo2">undo</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
